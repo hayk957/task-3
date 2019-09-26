@@ -1,0 +1,59 @@
+.btn-margin {
+  margin: 2px 10px;
+  font-size: 2vw;
+  padding: 1px;
+  text-align: center;
+}
+
+.info-box-image {
+    border-top-left-radius: 2px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 2px;
+    display: block;
+    float: left;
+    height: 45px;
+    width: 45px;
+    text-align: center;
+    font-size: 45px;
+    line-height: 80px;
+    background: rgba(0,0,0,0.2);
+}
+
+image .logo {
+    width: 90px;
+    height: 90px;
+}
+
+.company .info-box-icon {
+    line-height: 80px;
+}
+
+.flash-message {
+    margin-left: 230px;
+
+}
+
+span.tags
+{
+    background: #1abc9c;
+    border-radius: 2px;
+    color: #f5f5f5;
+    font-weight: bold;
+    padding: 2px 4px;
+}
+
+/* Small devices (tablets, 768px and up) */
+  @media (min-width: 768px) {
+    .btn-margin {
+      font-size: 1vw;
+    }
+ }
+ /* Small devices (tablets, 768px and up) */
+  @media (min-width: 970px) {
+    .btn-margin {
+      margin: 5px 10px;
+      padding: 5px;
+      font-size: 14px;
+    }
+ }
